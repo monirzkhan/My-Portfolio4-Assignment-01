@@ -8,18 +8,12 @@ body {
     background-repeat: no repeat;
     height: 630px;
     width: 100%;
-
-
-
 }
 
 .headings {
     text-align: center;
     padding: 2% 10%;
     color: white;
-
-
-
 }
 
 .headings h1 {
@@ -27,7 +21,6 @@ body {
     text-shadow: 5px 5px 10px black, -5px -5px 10px black;
     margin-left: 10%;
     margin-right: 10%;
-
 }
 
 .headings p {
@@ -53,8 +46,6 @@ body {
 .donate-today {
     text-align: justify;
     padding-top: 5%;
-
-
 }
 
 .donate-today h1 {
@@ -62,16 +53,12 @@ body {
     font-weight: 700;
     margin-left: 40%;
     margin-right: 40%;
-
-
 }
 
 .donate-today p {
     padding-left: 20%;
     padding-right: 20%;
     justify-content: center;
-
-
 }
 
 .amount {
@@ -81,7 +68,6 @@ body {
     padding-left: 30%;
     padding-right: 30%;
     padding-bottom: 3%;
-
 }
 
 .amount h2 {
@@ -92,7 +78,6 @@ body {
     background-color: rgb(248, 239, 239);
     border-radius: 5px;
     font-weight: 700;
-
 }
 
 #amount-200 {
@@ -112,7 +97,6 @@ body {
     border-radius: 5px;
     padding: 20px 25px;
     font-weight: 600;
-
 }
 
 .deposit input {
@@ -124,7 +108,6 @@ body {
     margin-left: 25%;
     padding-top: 10px;
     font-size: 20px;
-
 }
 
 .donate-plan {
@@ -182,7 +165,6 @@ body {
     background-position: right;
     margin-bottom: 5%;
     padding-right: 5%;
-
 }
 
 .contribute {
@@ -191,22 +173,16 @@ body {
     padding-right: 5%;
     margin-top: 10%;
     margin-bottom: 5%;
-
 }
 
 .contribute img {
     width: 100%;
     border-radius: 10px;
-
 }
 
 .contribute h1 {
     color: orangered;
     font-size: 30px;
-    
-    
-    
-
 }
 
 .contribute-link {
@@ -218,8 +194,6 @@ body {
     font-weight: 600;
     margin-top: 5%;
 }
-
-
 
 .self-judgement {
     text-align: center;
@@ -241,17 +215,16 @@ body {
 .fund-rising-info {
     width: 33.5%;
     text-align: center;
-
 }
 
 .fund-rising-info img {
-    width: 220px;
+    width: 160px;
     height: 150px;
 }
 
 .fund-rising-info h1 {
     font-size: 2em;
-    font-weight: 1000;
+    font-weight: 700;
 }
 
 .get-updates {
@@ -280,8 +253,6 @@ body {
     width: 300px;
     border-radius: 5px;
     background-color: rgb(240, 244, 247);
-
-
 }
 
 .subscription button {
@@ -295,7 +266,6 @@ body {
     color: white;
     border-radius: 5px;
     font-weight: 500;
-
 }
 
 footer {
@@ -304,7 +274,6 @@ footer {
     height: 160px;
     color: white;
     padding-top: 5px;
-
 }
 
 footer h1 {
