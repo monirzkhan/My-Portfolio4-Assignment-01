@@ -2,9 +2,10 @@ body {
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
+
 .section-one {
     background-image: url(images/sodkah.png);
-    
+
     background-repeat: no-repeat;
 
 }
@@ -13,26 +14,27 @@ body {
     text-align: center;
     padding: 5% 20%;
     color: white;
-    
-    
-    
+
+
+
 }
 
 .headings h1 {
     font-size: 3em;
     text-shadow: 5px 5px 10px black, -5px -5px 10px black
 }
-.headings p{
+
+.headings p {
     color: black;
     padding-left: 20%;
     padding-right: 20%;
     font-size: small;
 }
 
-.headings a{
+.headings a {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    color:white;
+    color: white;
     border-radius: 5px;
     padding: 5px 10px;
     font-weight: 500;
@@ -41,41 +43,44 @@ body {
 .donate-today {
     text-align: center;
     padding-top: 5%;
-    
+
 
 }
-.donate-today h1{
+
+.donate-today h1 {
     font-size: 2em;
     font-weight: 700;
-    
+
 }
 
 .donate-today p {
     padding-left: 20%;
     padding-right: 20%;
-    
+
 
 }
 
 .amount {
     display: flex;
     gap: 20px;
-    color:rgb(73, 72, 72);
+    color: rgb(73, 72, 72);
     padding-left: 30%;
     padding-right: 30%;
     padding-bottom: 3%;
-    
+
 }
+
 .amount h2 {
     width: 20%;
-    
+
     text-align: center;
     padding: 30px 15px;
     background-color: rgb(248, 239, 239);
     border-radius: 5px;
     font-weight: 700;
-    
+
 }
+
 #amount-200 {
     color: orangered;
     border: 2px solid orangered;
@@ -89,16 +94,17 @@ body {
 .deposit a {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    color:white;
+    color: white;
     border-radius: 5px;
     padding: 5px 10px;
     font-weight: 500;
 }
+
 .deposit input {
     border: none;
     border-bottom: 1px solid silver;
     padding-left: 15%;
-    padding-right: 15% ;
+    padding-right: 15%;
     margin-right: 22%;
     margin-left: 25%;
     padding-top: 10px;
@@ -106,38 +112,116 @@ body {
     font-size: 20px;
 
 }
+
 .donate-plan {
-    text-align:center;
+    text-align: center;
     padding-top: 5%;
     padding-bottom: 1%;
-    
+
 
 }
 
 .section-three {
     display: flex;
 }
+
 .three-division {
-    
+
     border: 1px solid white;
     margin: 1% 1%;
     padding: 20px 10px;
     border-radius: 10px;
     color: black;
-    
-   
+
+
 }
+
 #food {
     margin-left: 15%;
     background-image: linear-gradient(rgb(198, 232, 245), rgb(190, 236, 236));
 }
 
 #education {
-    margin-right: 15%; 
+    margin-right: 15%;
     background-image: linear-gradient(rgb(243, 211, 152), rgb(240, 192, 184));
     background-color:
 }
+
 #shelter {
-    
+
     background-image: linear-gradient(rgb(216, 231, 175), rgb(189, 230, 41));
+}
+
+.get-updates {
+    text-align: center;
+    margin: 5% 10%;
+}
+
+.subscription {
+    min-height: 30vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 25%;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px rgb(243, 238, 235), -5px -10px 15px rgb(240, 237, 235);
+    
+}
+.subscription label {
+    position: relative;
+
+}
+
+.subscription input {
+    border: none;
+    padding: 15px;
+    width: 300px;
+    margin-top: 
+    border-radius: 5px;;
+    background-color:rgb(227, 231, 233);
+    
+
+} 
+.subscription button {
+    border: none;
+    padding: 15px;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-color: tomato;
+    color:white;
+    border-radius: 5px;
+    
+} 
+
+footer {
+    background-color: black;
+    text-align: center;
+    height: 160px;
+    color: white;
+    padding-top: 5px;
+
+}
+
+footer h1 {
+    font-weight: 500;
+    margin-top: 1%;
+
+
+}
+
+.orange {
+    color: rgb(226, 152, 14);
+    padding: 5px;
+
+}
+
+.silver {
+    color: silver;
+}
+footer small {
+    color:rgb(224, 226, 228);
+    font-size: small;
 }
