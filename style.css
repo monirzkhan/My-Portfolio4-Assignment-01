@@ -4,8 +4,7 @@ body {
 }
 .section-one {
     background-image: url(images/sodkah.png);
-    height: 500px;
-    width: 1365px;
+    
     background-repeat: no-repeat;
 
 }
@@ -37,4 +36,72 @@ body {
     border-radius: 5px;
     padding: 5px 10px;
     font-weight: 500;
+}
+
+.donate-today {
+    text-align: center;
+    padding-top: 5%;
+    
+
+}
+.donate-today h1{
+    font-size: 2em;
+    font-weight: 700;
+    
+}
+
+.donate-today p {
+    padding-left: 20%;
+    padding-right: 20%;
+    
+
+}
+
+.amount {
+    display: flex;
+    gap: 20px;
+    color:rgb(73, 72, 72);
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 3%;
+    
+}
+.amount h2 {
+    width: 20%;
+    
+    text-align: center;
+    padding: 30px 15px;
+    background-color: rgb(248, 239, 239);
+    border-radius: 5px;
+    font-weight: 700;
+    
+}
+#amount-200 {
+    color: orangered;
+    border: 2px solid orangered;
+    background-color: rgb(250, 231, 221);
+}
+
+.deposit {
+    text-align: center;
+}
+
+.deposit a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color:white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+.deposit input {
+    border: none;
+    border-bottom: 1px solid silver;
+    padding-left: 15%;
+    padding-right: 15% ;
+    margin-right: 22%;
+    margin-left: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
