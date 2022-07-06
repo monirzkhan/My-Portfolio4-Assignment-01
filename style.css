@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.section-one {
+    background-image: url(images/sodkah.png);
+    height: 500px;
+    width: 1365px;
+    background-repeat: no-repeat;
+
+}
+
+.headings {
+    text-align: center;
+    padding: 5% 20%;
+    color: white;
+    
+    
+    
+}
+
+.headings h1 {
+    font-size: 3em;
+    text-shadow: 5px 5px 10px black, -5px -5px 10px black
+}
+.headings p{
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: small;
+}
+
+.headings a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color:white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
