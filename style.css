@@ -175,13 +175,10 @@ body {
 #education {
     margin-right: 15%;
     background-image: linear-gradient(rgba(243, 211, 152, 0.8), rgba(240, 192, 184, 0.7));
-    background-color:
 }
 
 .victims {
     display: flex;
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
     background-position: right;
     margin-bottom: 5%;
     padding-right: 5%;
