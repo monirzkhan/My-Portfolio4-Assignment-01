@@ -14,7 +14,7 @@ body {
 
 .headings {
     text-align: center;
-    padding: 5% 20%;
+    padding: 2% 10%;
     color: white;
 
 
@@ -22,10 +22,10 @@ body {
 }
 
 .headings h1 {
-    font-size: 3em;
+    font-size: 4em;
     text-shadow: 5px 5px 10px black, -5px -5px 10px black;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
 
