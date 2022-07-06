@@ -103,5 +103,41 @@ body {
     margin-left: 25%;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 20px;
 
+}
+.donate-plan {
+    text-align:center;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    
+
+}
+
+.section-three {
+    display: flex;
+}
+.three-division {
+    
+    border: 1px solid white;
+    margin: 1% 1%;
+    padding: 20px 10px;
+    border-radius: 10px;
+    color: black;
+    
+   
+}
+#food {
+    margin-left: 15%;
+    background-image: linear-gradient(rgb(198, 232, 245), rgb(190, 236, 236));
+}
+
+#education {
+    margin-right: 15%; 
+    background-image: linear-gradient(rgb(243, 211, 152), rgb(240, 192, 184));
+    background-color:
+}
+#shelter {
+    
+    background-image: linear-gradient(rgb(216, 231, 175), rgb(189, 230, 41));
 }
