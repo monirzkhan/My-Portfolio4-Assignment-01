@@ -21,14 +21,19 @@ body {
 
 .headings h1 {
     font-size: 3em;
-    text-shadow: 5px 5px 10px black, -5px -5px 10px black
+    text-shadow: 5px 5px 10px black, -5px -5px 10px black;
+    margin-left: 15%;
+    margin-right: 15%;
+
 }
 
 .headings p {
-    color: black;
+    color: rgb(49, 48, 48);
     padding-left: 20%;
     padding-right: 20%;
-    font-size: small;
+    font-size: 14px;
+    padding-bottom: 5%;
+    text-align: justify;
 }
 
 .headings a {
@@ -36,12 +41,12 @@ body {
     background-image: linear-gradient(orange, tomato);
     color: white;
     border-radius: 5px;
-    padding: 5px 10px;
-    font-weight: 500;
+    padding: 20px 25px;
+    font-weight: 600;
 }
 
 .donate-today {
-    text-align: center;
+    text-align: justify;
     padding-top: 5%;
 
 
@@ -50,12 +55,16 @@ body {
 .donate-today h1 {
     font-size: 2em;
     font-weight: 700;
+    margin-left: 40%;
+    margin-right: 40%;
+
 
 }
 
 .donate-today p {
     padding-left: 20%;
     padding-right: 20%;
+    justify-content: center;
 
 
 }
@@ -96,8 +105,9 @@ body {
     background-image: linear-gradient(orange, tomato);
     color: white;
     border-radius: 5px;
-    padding: 5px 10px;
-    font-weight: 500;
+    padding: 20px 25px;
+    font-weight: 600;
+
 }
 
 .deposit input {
@@ -108,7 +118,6 @@ body {
     margin-right: 22%;
     margin-left: 25%;
     padding-top: 10px;
-    padding-bottom: 10px;
     font-size: 20px;
 
 }
@@ -117,12 +126,19 @@ body {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 1%;
+}
 
-
+.donate-plan p {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
 }
 
 .section-three {
     display: flex;
+    background-image: url(images/homeless-2.png);
+    background-repeat: no-repeat;
+    align-content: center;
 }
 
 .three-division {
@@ -132,24 +148,62 @@ body {
     padding: 20px 10px;
     border-radius: 10px;
     color: black;
+}
 
+.three-division small {
 
+    text-align: justify;
 }
 
 #food {
     margin-left: 15%;
-    background-image: linear-gradient(rgb(198, 232, 245), rgb(190, 236, 236));
-}
-
-#education {
-    margin-right: 15%;
-    background-image: linear-gradient(rgb(243, 211, 152), rgb(240, 192, 184));
-    background-color:
+    background-image: linear-gradient(rgba(198, 232, 245, 0.8), rgba(190, 236, 236, 0.7));
 }
 
 #shelter {
 
-    background-image: linear-gradient(rgb(216, 231, 175), rgb(189, 230, 41));
+    background-image: linear-gradient(rgba(216, 231, 175, 0.8), rgb(189, 230, 41, 0.7));
+}
+
+
+#education {
+    margin-right: 15%;
+    background-image: linear-gradient(rgba(243, 211, 152, 0.8), rgba(240, 192, 184, 0.7));
+    background-color:
+}
+
+
+.self-judgement {
+    text-align: center;
+    margin: 3% 15%;
+}
+
+.self-judgement h1 {
+    color: orangered;
+}
+
+.statistics {
+    display: flex;
+    box-shadow: 10px 10px 30px silver, -10px -10px 30px silver;
+    margin: 5% 10%;
+    padding: 3% 2%;
+    border-radius: 15px;
+}
+
+.fund-rising-info {
+    width: 33.5%;
+    text-align: center;
+
+}
+
+.fund-rising-info img {
+    width: 220px;
+    height: 150px;
+}
+
+.fund-rising-info h1 {
+    font-size: 2em;
+    font-weight: 1000;
 }
 
 .get-updates {
@@ -166,8 +220,9 @@ body {
     margin: 2% 25%;
     border-radius: 5px;
     box-shadow: 5px 10px 15px rgb(243, 238, 235), -5px -10px 15px rgb(240, 237, 235);
-    
+
 }
+
 .subscription label {
     position: relative;
 
@@ -177,24 +232,25 @@ body {
     border: none;
     padding: 15px;
     width: 300px;
-    margin-top: 
-    border-radius: 5px;;
-    background-color:rgb(227, 231, 233);
-    
+    border-radius: 5px;
+    background-color: rgb(240, 244, 247);
 
-} 
+
+}
+
 .subscription button {
     border: none;
-    padding: 15px;
+    padding: 15px 20px;
     position: absolute;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
-    background-color: tomato;
-    color:white;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
     border-radius: 5px;
-    
-} 
+    font-weight: 500;
+
+}
 
 footer {
     background-color: black;
@@ -221,7 +277,8 @@ footer h1 {
 .silver {
     color: silver;
 }
+
 footer small {
-    color:rgb(224, 226, 228);
+    color: rgb(224, 226, 228);
     font-size: small;
 }
