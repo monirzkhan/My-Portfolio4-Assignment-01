@@ -5,8 +5,10 @@ body {
 
 .header {
     background-image: url(images/sodkah.png);
+    height: 630px;
+    width: 100%;
 
-    background-repeat: no-repeat;
+
 
 }
 
@@ -31,9 +33,11 @@ body {
     color: rgb(49, 48, 48);
     padding-left: 20%;
     padding-right: 20%;
-    font-size: 14px;
+    font-size: 16px;
     padding-bottom: 5%;
+    padding-top: 5%;
     text-align: justify;
+    font-weight: 700;
 }
 
 .headings a {
@@ -172,6 +176,51 @@ body {
     background-color:
 }
 
+.victims {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 5%;
+    padding-right: 5%;
+
+}
+
+.contribute {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+}
+
+.contribute img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.contribute h1 {
+    color: orangered;
+    font-size: 30px;
+    
+    
+    
+
+}
+
+.contribute-link {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+
 
 .self-judgement {
     text-align: center;
@@ -218,9 +267,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 2% 25%;
-    border-radius: 5px;
-    box-shadow: 5px 10px 15px rgb(243, 238, 235), -5px -10px 15px rgb(240, 237, 235);
-
+    border-radius: 10px;
 }
 
 .subscription label {
@@ -264,14 +311,11 @@ footer {
 footer h1 {
     font-weight: 500;
     margin-top: 1%;
-
-
 }
 
 .orange {
     color: rgb(226, 152, 14);
     padding: 5px;
-
 }
 
 .silver {
