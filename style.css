@@ -5,7 +5,7 @@ body {
 
 .header {
     background-image: url(images/sodkah.png);
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     height: 630px;
     width: 100%;
 }
